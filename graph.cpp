@@ -31,7 +31,7 @@ int main()
 			if(tmp.first == '0'){
 				break;
 			}
-			else if(tmp.first < 'A' || tmp.first > (n + 'A') || tmp.first == static_cast<char>(i + 'A')){
+			else if(tmp.first < 'A' || tmp.first >= (n + 'A') || tmp.first == static_cast<char>(i + 'A')){
 				std::cout << "!!Invalid name\n";
 			}else{
 
